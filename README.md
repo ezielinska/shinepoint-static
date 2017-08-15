@@ -1,0 +1,1 @@
+# shinepoint-static
