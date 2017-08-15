@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        ShinePoint
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 logo">
+                    <figure>
+                        <a href="/">
+                                    <img src="img/logo.svg" alt="logo">
+                                </a>
+                    </figure>
+                    <div class="city-selector">
+                        <select class="selectpicker">
+                            <option value="Warszawa">Warszawa</option>
+                            <option value="Lublin">Lublin</option>
+                            <option value="Chełm">Chełm</option>
+                        </select>
+                    </div>
+                </div>
+                <nav class="col-md-6 col-sm-6 main-menu ">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__list-item">
+                            <a href="index.html">Start</a>
+                        </li>
+                        <li class="main-menu__list-item">
+                            <a href="about-us.html">O nas</a>
+                        </li>
+                        <li class="main-menu__list-item">
+                            <a href="news.html">Aktualności</a>
+                        </li>
+                        <li class="main-menu__list-item main-menu__list-item--has-submenu">
+                            <a href="#">Usługi</a>
+                            <ul class="sub-menu">
+                                <li class="main-menu__list-item">
+                                    <a href="product-1.html">Sprzątanie biur i mieszkań</a>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="product-2.html">Pranie dywanów i tapicerek</a>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="product-3.html">Pielęgnacja zieleni</a>
+                                </li>
+                                <li class="main-menu__list-item">
+                                    <a href="product-other.html">Pozostałe</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main-menu__list-item">
+                            <a href="contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="hamburger-menu js-hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>    <main class="main-content">
+        <section class="common-header common-header--news">
+            <div class="container">
+                <h1 class="common-header__title common-header__title--news common-header__title--white">Aktualności</h1>
+                <div class="common-header__overlay"></div>
+        </section>
+        <section class="posts-list">
+            <article class="single-post">
+                <a href="/single-news.html" class="single-post__link">
+                    <div class="container">
+                        <div class="row">
+                            <figure class="col-xs-12 single-post__image">
+                                <div class="single-post__image-overlay"></div>
+                                <img width="1250" height="250" src="../images/news_article.jpg">
+                                <h3 class="single-post__title">Witaj świecie</h3>
+                            </figure>
+                            <div class="col-xs-12">
+                                <p class="single-post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id ante nisl. Phasellus tincidunt, augue eu consequat iaculis, diam dolor scelerisque massa, id interdum erat nunc nec libero. Vestibulum placerat elit eget libero feugiat, at dictum nisi semper.</p>
+                                <span class="btn btn--invert single-post__read-more">Więcej</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container-fluid">
+            <nav class="footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list menu-item"><a href="product-1.html">Sprzątanie biur i mieszkań</a></li>
+                    <li class="footer-menu__list menu-item"><a href="product-2.html">Pranie dywanów i tapicerek</a></li>
+                    <li class="footer-menu__list menu-item"><a href="product-3.html">Pielęgnacja zieleni</a></li>
+                    <li class="footer-menu__list menu-item"><a href="about-us.html">O nas</a></li>
+                    <li class="footer-menu__list menu-item"><a href="news.html">Aktualności</a></li>
+                    <li class="footer-menu__list menu-item"><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <aside class="main-footer-details">
+                <span class="main-footer-details__copyrights">Copyright &#169; 2017 ShinePoint</span>
+                <figure class="main-footer-details__created-by">
+                    <figcaption class="name-company">Created by
+                        <img src="img/icon-footer.png" alt="footer-logo">
+                    </figcaption>
+                </figure>
+            </aside>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    <script src="http://localhost:35729/livereload.js?snipver=1"></script></body>
+
+</html>

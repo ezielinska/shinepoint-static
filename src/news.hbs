@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        ShinePoint
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    {{> partials/header}}
+    <main class="main-content">
+        <section class="common-header common-header--news">
+            <div class="container">
+                <h1 class="common-header__title common-header__title--news common-header__title--white">Aktualności</h1>
+                <div class="common-header__overlay"></div>
+        </section>
+        <section class="posts-list">
+            <article class="single-post">
+                <a href="/single-news.html" class="single-post__link">
+                    <div class="container">
+                        <div class="row">
+                            <figure class="col-xs-12 single-post__image">
+                                <div class="single-post__image-overlay"></div>
+                                <img width="1250" height="250" src="../images/news_article.jpg">
+                                <h3 class="single-post__title">Witaj świecie</h3>
+                            </figure>
+                            <div class="col-xs-12">
+                                <p class="single-post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id ante nisl. Phasellus tincidunt, augue eu consequat iaculis, diam dolor scelerisque massa, id interdum erat nunc nec libero. Vestibulum placerat elit eget libero feugiat, at dictum nisi semper.</p>
+                                <span class="btn btn--invert single-post__read-more">Więcej</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+    </main>
+    {{> partials/footer}}
+</body>
+
+</html>
